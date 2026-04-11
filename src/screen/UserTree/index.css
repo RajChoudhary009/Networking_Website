@@ -1,0 +1,148 @@
+.tree-main {
+    min-height: 100vh;
+    padding: 40px 20px;
+  
+    background: linear-gradient(135deg, #141e30, #243b55);
+    animation: gradientMove 10s ease infinite;
+  
+    color: white;
+    text-align: center;
+  }
+  
+  .tree-title {
+    margin-bottom: 30px;
+  }
+  
+  /* 🔥 NODE */
+  .tree-node {
+    margin-top: 20px;
+  }
+  
+  /* 🔥 CARD */
+  .tree-card {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  
+    padding: 10px 15px;
+    border-radius: 12px;
+  
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+  
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .tree-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* 🔥 AVATAR */
+  .tree-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  
+    background: linear-gradient(45deg, #00f2fe, #4facfe);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    font-weight: bold;
+    color: black;
+  }
+  
+  /* 🔥 INFO */
+  .tree-info h4 {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .tree-info p {
+    margin: 0;
+    font-size: 12px;
+    opacity: 0.7;
+  }
+  
+  /* 🔥 CHILDREN */
+  .tree-children {
+    margin-left: 30px;
+    border-left: 2px dashed rgba(255,255,255,0.3);
+    padding-left: 15px;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .tree-main {
+    min-height: 100vh;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: white;
+    text-align: center;
+  }
+  
+  .tree-title {
+    margin-bottom: 30px;
+  }
+  
+  .tree-node {
+    margin-top: 20px;
+  }
+  
+  .tree-card {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .tree-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .tree-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #00f2fe, #4facfe);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .tree-info h4 {
+    margin: 0;
+  }
+  .tree-info h4 {
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0 0 6px rgba(0, 255, 255, 0.6);
+  }
+  
+  .tree-info p {
+    margin: 0;
+    font-size: 12px;
+    opacity: 0.7;
+  }
+  
+  .tree-children {
+    margin-left: 30px;
+    border-left: 2px dashed rgba(255,255,255,0.3);
+    padding-left: 15px;
+  }
+  
+  .tree-loading {
+    margin-top: 20px;
+  }
