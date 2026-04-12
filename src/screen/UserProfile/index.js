@@ -87,13 +87,6 @@ export const UserProfile = () => {
     }
   };
 
-  // jab userData aaye tab update karo
-  useEffect(() => {
-    if (userData?.paymentAddress) {
-      setPaymentAddress(userData.paymentAddress);
-    }
-  }, [userData]);
-
 
   const handleLogout = async () => {
     const confirmLogout = window.confirm("Are you sure you want to logout?");
@@ -198,7 +191,7 @@ export const UserProfile = () => {
 
             <div className="info-row">
               <span>Payment Address</span>
-              <span className="break copy-box">
+              <span>
                 {userData.paymentAddress}
 
                 <button

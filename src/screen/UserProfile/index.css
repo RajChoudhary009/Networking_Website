@@ -597,13 +597,13 @@
   background: linear-gradient(135deg, #6366f1, #a855f7);
   border: none;
   color: #fff;
-  padding: 4px 4px;
+  padding: 4px 10px;
   border-radius: 6px;
   cursor: pointer;
   font-size: 12px;
   transition: 0.3s;
   margin-bottom: 12px;
-  margin-left: 10px !important;
+  margin-left: 4px !important;
 }
 
 .copy-btn:hover {

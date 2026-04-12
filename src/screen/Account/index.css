@@ -169,7 +169,7 @@
 }
 
 /* copy button */
-.copy-btn {
+.copy-btn1 {
   margin-top: 10px;
   padding: 7px 14px;
   background: #6366f1;
@@ -180,7 +180,7 @@
   transition: 0.3s;
 }
 
-.copy-btn:hover {
+.copy-btn1:hover {
   background: #4f46e5;
 }
 

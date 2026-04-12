@@ -280,7 +280,7 @@ export const Account = () => {
                     </span>
 
                     <button
-                      className="copy-btn"
+                      className="copy-btn1"
                       onClick={(e) => {
                         e.stopPropagation();
                         handleCopy(currentScanner.scannerPayAdd);
