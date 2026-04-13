@@ -155,7 +155,7 @@ export const UserProfile = () => {
             <img
               src={scaneer}
               alt="User Scanner"
-              className="scanner-img"
+              className="scanner-img1"
             />
             <div className="scan-line"></div>
           </div>
