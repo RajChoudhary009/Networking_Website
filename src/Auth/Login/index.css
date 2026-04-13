@@ -152,6 +152,12 @@
     justify-content: center;
   }
   
+  @media (max-width: 768px) {
+    .lf-right {
+     display: none;
+    }
+  }
+
   .lf-right h1 {
     font-size: 2rem;
     margin-bottom: 20px;

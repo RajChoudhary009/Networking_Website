@@ -18,6 +18,7 @@ import Login from "./Auth/Login";
 import Signup from "./Auth/Sinup";
 import RefSinup from "./Auth/RefSinup"
 import UserTree from "./screen/UserTree";
+import NotFound from "./screen/NotFound";
 import "./App.css";
 
 // Smooth scroll for internal links
@@ -72,8 +73,12 @@ const App = () => {
           <Route path="/user" element={<UserProfile />} />
           <Route path="/add-fund" element={<Account />} />
           <Route path="/user-tree" element={<UserTree />} />
-          
+
+          {/* 🔥 404 for private routes */}
+          <Route path="*" element={<NotFound />} />
         </Route>
+        {/* 🔥 404 for public routes */}
+        <Route path="*" element={<NotFound />} />
 
       </Routes>
     </BrowserRouter>
