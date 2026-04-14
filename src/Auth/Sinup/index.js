@@ -52,7 +52,7 @@ const Signup = () => {
 
         {/* LEFT SIDE */}
         <div className="auth-left">
-          <div className="logo">GLOBAL</div>
+          <div className="logo">GLOBEL</div>
           <Link to="/" className="back-btn">Back to store →</Link>
 
           <div className="caption">

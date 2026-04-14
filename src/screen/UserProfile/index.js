@@ -137,7 +137,7 @@ export const UserProfile = () => {
         pauseOnHover
         theme="dark"
       />
-      <Link to="/" className="back-btn">⬅ Back to Home</Link>
+      {/* <Link to="/" className="back-btn">⬅ Back to Home</Link> */}
       <button className="Logut-btn" onClick={handleLogout}>⬅ Logut</button>
       <div className="user-profile">
         <div className="profile-card">

@@ -278,7 +278,7 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 19% !important;
+  top: 11% !important;
   right: 22px;
   width: 90px;
   height: 20px;
@@ -308,6 +308,7 @@
     left: 1%;
     width: 80px;
     height: 22px;
+    background: linear-gradient(45deg, #ff7eb3, #ff758c);
   }
 }
 

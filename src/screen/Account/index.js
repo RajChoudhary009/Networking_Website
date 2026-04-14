@@ -259,9 +259,9 @@ export const Account = () => {
               {scannerList.length > 0 && currentScanner && (
                 <>
 
-<h3 className="payment-heading">
-  Scan & Make Payment
-</h3>
+                  <h3 className="payment-heading">
+                    Scan & Make Payment
+                  </h3>
 
 
                   {/* Slider */}
