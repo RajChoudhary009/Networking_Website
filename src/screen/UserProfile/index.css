@@ -31,18 +31,18 @@
 }
 
 .profile-card {
-  margin-top: 60px;
+  margin-top: 70px;
   background: rgba(255, 255, 255, 0.95);
-  padding: 60px 50px;
+  padding: 60px 40px;
   border-radius: 20px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
   width: 400px;
-  /* thoda bada card */
+ 
   text-align: center;
   position: relative;
   overflow-y: auto;
   transition: transform 0.5s ease, box-shadow 0.5s ease;
-  height: 87vh;
+  height: 84vh;
 }
 
 @media (max-width: 576px) {
@@ -637,4 +637,38 @@
   width: 100%;
   max-width: 180px;
   margin-bottom: 10px;
+}
+
+.paymentAddress {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 160px;
+}
+
+/* 🔥 Premium Address Text */
+.address-text {
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  /* font-family: 'Courier New', monospace; */
+  font-size: 15px;
+  font-weight: bold !important;
+  color: #777777 !important;
+
+  letter-spacing: 0.5px !important;
+   /* 🔥 premium background */
+   background: linear-gradient(135deg, #eef2ff, #fdf2f8);
+   padding: 3px 6px;
+   border-radius: 8px;
+   backdrop-filter: blur(6px) !important;
+ 
+   border: 1px solid #e0e7ff;
+}
+
+.address-text:hover {
+  background: #e5e7eb;
 }

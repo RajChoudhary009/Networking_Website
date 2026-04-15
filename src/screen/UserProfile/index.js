@@ -64,7 +64,7 @@ export const UserProfile = () => {
 
       setLoading(true);
 
-      const res = await axios.put(`${SERVER_API_URL}/api/users/update-user`,formData,
+      const res = await axios.put(`${SERVER_API_URL}/api/users/update-user`, formData,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -191,11 +191,15 @@ export const UserProfile = () => {
 
             <div className="info-row">
               <span>Payment Address</span>
-              <span>
-                {userData.paymentAddress}
+
+              <span className="paymentAddress">
+                <span className="address-text">
+                  {userData.paymentAddress}..
+                </span>
 
                 <button
                   className="copy-btn"
+                  style={{marginTop:"13px"}}
                   onClick={() => handleCopy(userData.paymentAddress)}
                 >
                   📋
